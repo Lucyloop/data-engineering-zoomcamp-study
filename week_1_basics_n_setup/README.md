@@ -65,7 +65,7 @@ if you have troubles setting up the environment and following along with the vid
   * [Instructions](1_terraform_gcp/windows.md)
 
 
-### Environment setup 
+### Environment setup  
 
 For the course you'll need:
 

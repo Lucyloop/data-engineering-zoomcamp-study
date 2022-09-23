@@ -23,6 +23,8 @@ For this course, we'll use a free version (upto EUR 300 credits).
 5. Set environment variable to point to your downloaded GCP keys:
    ```shell
    export GOOGLE_APPLICATION_CREDENTIALS="<path/to/your/service-account-authkeys>.json"
+
+
    
    # Refresh token/session, and verify authentication
    gcloud auth application-default login

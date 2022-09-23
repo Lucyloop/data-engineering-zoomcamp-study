@@ -1,3 +1,4 @@
+#upload data to gcs
 import os
 import logging
 
@@ -91,7 +92,7 @@ with DAG(
             "local_file": f"{path_to_local_home}/{parquet_file}",
         },
     )
-
+    #gcp operation 
     bigquery_external_table_task = BigQueryCreateExternalTableOperator(
         task_id="bigquery_external_table_task",
         table_resource={
